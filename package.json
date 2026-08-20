@@ -1,0 +1,55 @@
+{
+  "name": "central-bank-of-chile-exchange-rate",
+  "version": "1.2.6",
+  "description": "Official Central Bank of Chile (Chile) daily exchange rates — 60 currencies vs CLP, history since 2000. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "bcch",
+    "central",
+    "bank",
+    "of",
+    "chile",
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "forex",
+    "fx",
+    "clp",
+    "central-bank",
+    "official-rates",
+    "chile",
+    "api",
+    "typescript"
+  ],
+  "homepage": "https://allratestoday.com/central-bank-rates-api/bcch/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/central-bank-of-chile-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/central-bank-of-chile-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
