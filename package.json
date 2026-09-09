@@ -1,6 +1,6 @@
 {
   "name": "central-bank-of-chile-exchange-rate",
-  "version": "1.2.7",
+  "version": "1.3.0",
   "description": "Official Central Bank of Chile (Chile) daily exchange rates — 60 currencies vs CLP, history since 1982. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "bcch",
