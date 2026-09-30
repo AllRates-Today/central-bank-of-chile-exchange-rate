@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'CLP', { apiKey: 'art_live_...' });
 {
   bank: 'bcch',
   name: 'Central Bank of Chile',
-  rate_date: '2026-09-09',   // Central Bank of Chile's own publication date
+  rate_date: '2026-09-25',   // Central Bank of Chile's own publication date
   source: 'USD',
   target: 'CLP',
-  rate: 926.94,
+  rate: 965.71,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bcch',
   name: 'Central Bank of Chile',
-  rate_date: '2026-09-09',
+  rate_date: '2026-09-25',
   rates: [
-    { "base": "USD", "quote": "CLP", "type": "reference", "value": 926.94 },
+    { "base": "USD", "quote": "CLP", "type": "reference", "value": 965.71 },
     // … the rest of the published table (60 currencies vs CLP)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'central-bank-of-chile-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'CLP', from: '2026-01-01', to: '2026-09-09' },
+  { source: 'USD', target: 'CLP', from: '2026-01-01', to: '2026-09-25' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'CLP',
   from: '2026-01-01',
-  to: '2026-09-09',
+  to: '2026-09-25',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-09', rate: 926.94, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-09-25', rate: 965.71, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
