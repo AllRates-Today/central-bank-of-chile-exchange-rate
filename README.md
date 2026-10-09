@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/central-bank-of-chile-exchange-rate.svg)](https://github.com/AllRates-Today/central-bank-of-chile-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/central-bank-of-chile-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/CLP today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbcch%3Fsource%3DUSD%26target%3DCLP&query=%24.rate&label=USD%2FCLP%20published%20by%20Central%20Bank%20of%20Chile&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bcch/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbcch%3Fsource%3DUSD%26target%3DCLP&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bcch/)
 
 **Official Central Bank of Chile (Chile) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Central Bank of Chile itself prints, every business day.**
 
@@ -32,6 +34,79 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Central Bank of Chile table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Central Bank of Chile — 60 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| USD | AED | reference | 3.672 |
+| USD | ARS | reference | 1520.3002 |
+| USD | AUD | reference | 1.4357 |
+| USD | BMD | reference | 1 |
+| USD | BOB | reference | 11.97 |
+| USD | BRL | reference | 4.9936 |
+| USD | BSD | reference | 1 |
+| USD | CAD | reference | 1.4256 |
+| USD | CHF | reference | 0.8331 |
+| USD | CLP | reference | 979.85 |
+| USD | CNY | reference | 6.702 |
+| USD | COP | reference | 3230.415 |
+| USD | CRC | reference | 453.87 |
+| USD | CUP | reference | 24 |
+| USD | CZK | reference | 21.7943 |
+| USD | DKK | reference | 6.6755 |
+| USD | DOP | reference | 60.538 |
+| USD | EGP | reference | 52.3468 |
+| USD | EUR | reference | 0.8931 |
+| USD | FJD | reference | 2.2624 |
+| USD | GBP | reference | 0.7568 |
+| USD | GTQ | reference | 7.6372 |
+| USD | HKD | reference | 7.8482 |
+| USD | HUF | reference | 326.0733 |
+| USD | IDR | reference | 17883 |
+| USD | ILS | reference | 3.0612 |
+| USD | INR | reference | 96.77 |
+| USD | IRR | reference | 1773407 |
+| USD | ISK | reference | 122.2167 |
+| USD | JPY | reference | 157.9617 |
+| USD | KRW | reference | 1338.3317 |
+| USD | KYD | reference | 0.82 |
+| USD | KZT | reference | 447.4017 |
+| USD | MAD | reference | 9.9643 |
+| USD | MXN | reference | 17.9451 |
+| USD | MYR | reference | 4.085 |
+| USD | NOK | reference | 9.5759 |
+| USD | NZD | reference | 1.7853 |
+| USD | PAB | reference | 1 |
+| USD | PEN | reference | 3.4469 |
+| USD | PHP | reference | 62.745 |
+| USD | PKR | reference | 276.8714 |
+| USD | PLN | reference | 3.908 |
+| USD | PYG | reference | 5730 |
+| USD | QAR | reference | 3.645 |
+| USD | RON | reference | 4.7794 |
+| USD | RUB | reference | 85.25 |
+| USD | SAR | reference | 3.75 |
+| USD | SEK | reference | 9.9996 |
+| USD | SGD | reference | 1.2793 |
+| USD | THB | reference | 33.6287 |
+| USD | TRY | reference | 49.1941 |
+| USD | TWD | reference | 31.878 |
+| USD | UAH | reference | 44.8639 |
+| USD | UYU | reference | 40.1367 |
+| USD | VES | reference | 871.6823 |
+| USD | VND | reference | 25975.6667 |
+| USD | XDR | reference | 0.7395 |
+| USD | XPF | reference | 106.4462 |
+| USD | ZAR | reference | 16.5998 |
+
+Source: [Official rates published by BCCH, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bcch/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
