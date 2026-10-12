@@ -37,73 +37,75 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 
 ## 📈 Latest published table
 
-Today's full Central Bank of Chile table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+[![Latest Central Bank of Chile table](https://allratestoday.com/api/open/central-bank/bcch/table.svg)](https://allratestoday.com/central-bank-rates-api/bcch/)
+
+The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-08** by Central Bank of Chile — 60 rates. Updated 2026-10-12.
+Published **2026-10-09** by Central Bank of Chile — 60 rates. Updated 2026-10-12.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | USD | AED | reference | 3.672 |
-| USD | ARS | reference | 1520.3002 |
-| USD | AUD | reference | 1.4357 |
+| USD | ARS | reference | 1520.7136 |
+| USD | AUD | reference | 1.4373 |
 | USD | BMD | reference | 1 |
-| USD | BOB | reference | 11.97 |
-| USD | BRL | reference | 4.9936 |
+| USD | BOB | reference | 11.85 |
+| USD | BRL | reference | 5.0067 |
 | USD | BSD | reference | 1 |
-| USD | CAD | reference | 1.4256 |
-| USD | CHF | reference | 0.8331 |
-| USD | CLP | reference | 979.85 |
-| USD | CNY | reference | 6.702 |
-| USD | COP | reference | 3230.415 |
-| USD | CRC | reference | 453.87 |
+| USD | CAD | reference | 1.4227 |
+| USD | CHF | reference | 0.8315 |
+| USD | CLP | reference | 981.61 |
+| USD | CNY | reference | 6.7034 |
+| USD | COP | reference | 3214.4067 |
+| USD | CRC | reference | 452.41 |
 | USD | CUP | reference | 24 |
-| USD | CZK | reference | 21.7943 |
-| USD | DKK | reference | 6.6755 |
-| USD | DOP | reference | 60.538 |
-| USD | EGP | reference | 52.3468 |
-| USD | EUR | reference | 0.8931 |
-| USD | FJD | reference | 2.2624 |
-| USD | GBP | reference | 0.7568 |
-| USD | GTQ | reference | 7.6372 |
-| USD | HKD | reference | 7.8482 |
-| USD | HUF | reference | 326.0733 |
-| USD | IDR | reference | 17883 |
-| USD | ILS | reference | 3.0612 |
-| USD | INR | reference | 96.77 |
-| USD | IRR | reference | 1773407 |
-| USD | ISK | reference | 122.2167 |
-| USD | JPY | reference | 157.9617 |
-| USD | KRW | reference | 1338.3317 |
+| USD | CZK | reference | 21.7321 |
+| USD | DKK | reference | 6.6671 |
+| USD | DOP | reference | 60.7555 |
+| USD | EGP | reference | 52.3676 |
+| USD | EUR | reference | 0.892 |
+| USD | FJD | reference | 2.2671 |
+| USD | GBP | reference | 0.756 |
+| USD | GTQ | reference | 7.6359 |
+| USD | HKD | reference | 7.8481 |
+| USD | HUF | reference | 325.8217 |
+| USD | IDR | reference | 17912 |
+| USD | ILS | reference | 3.0633 |
+| USD | INR | reference | 96.7825 |
+| USD | IRR | reference | 1778728 |
+| USD | ISK | reference | 121.935 |
+| USD | JPY | reference | 157.7133 |
+| USD | KRW | reference | 1341.7467 |
 | USD | KYD | reference | 0.82 |
-| USD | KZT | reference | 447.4017 |
-| USD | MAD | reference | 9.9643 |
-| USD | MXN | reference | 17.9451 |
-| USD | MYR | reference | 4.085 |
-| USD | NOK | reference | 9.5759 |
-| USD | NZD | reference | 1.7853 |
+| USD | KZT | reference | 450.7 |
+| USD | MAD | reference | 9.9082 |
+| USD | MXN | reference | 18.1611 |
+| USD | MYR | reference | 4.089 |
+| USD | NOK | reference | 9.5648 |
+| USD | NZD | reference | 1.7844 |
 | USD | PAB | reference | 1 |
-| USD | PEN | reference | 3.4469 |
-| USD | PHP | reference | 62.745 |
-| USD | PKR | reference | 276.8714 |
-| USD | PLN | reference | 3.908 |
-| USD | PYG | reference | 5730 |
+| USD | PEN | reference | 3.4396 |
+| USD | PHP | reference | 62.87 |
+| USD | PKR | reference | 276.95 |
+| USD | PLN | reference | 3.9047 |
+| USD | PYG | reference | 5693.1 |
 | USD | QAR | reference | 3.645 |
-| USD | RON | reference | 4.7794 |
-| USD | RUB | reference | 85.25 |
+| USD | RON | reference | 4.7665 |
+| USD | RUB | reference | 84.7167 |
 | USD | SAR | reference | 3.75 |
-| USD | SEK | reference | 9.9996 |
-| USD | SGD | reference | 1.2793 |
-| USD | THB | reference | 33.6287 |
-| USD | TRY | reference | 49.1941 |
-| USD | TWD | reference | 31.878 |
-| USD | UAH | reference | 44.8639 |
-| USD | UYU | reference | 40.1367 |
-| USD | VES | reference | 871.6823 |
-| USD | VND | reference | 25975.6667 |
-| USD | XDR | reference | 0.7395 |
-| USD | XPF | reference | 106.4462 |
-| USD | ZAR | reference | 16.5998 |
+| USD | SEK | reference | 9.9719 |
+| USD | SGD | reference | 1.2805 |
+| USD | THB | reference | 33.6282 |
+| USD | TRY | reference | 49.2098 |
+| USD | TWD | reference | 31.937 |
+| USD | UAH | reference | 44.8526 |
+| USD | UYU | reference | 40.1492 |
+| USD | VES | reference | 872.5453 |
+| USD | VND | reference | 25910 |
+| USD | XDR | reference | 0.7397 |
+| USD | XPF | reference | 106.046 |
+| USD | ZAR | reference | 16.6004 |
 
 Source: [Official rates published by BCCH, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bcch/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
