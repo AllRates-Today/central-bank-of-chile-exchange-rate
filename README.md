@@ -47,70 +47,70 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Central Bank of Chile — 60 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by Central Bank of Chile — 60 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | USD | AED | reference | 3.672 |
-| USD | ARS | reference | 1540.4751 |
-| USD | AUD | reference | 1.4224 |
+| USD | ARS | reference | 1538.741 |
+| USD | AUD | reference | 1.4208 |
 | USD | BMD | reference | 1 |
 | USD | BOB | reference | 12.02 |
-| USD | BRL | reference | 5.3362 |
+| USD | BRL | reference | 5.3803 |
 | USD | BSD | reference | 1 |
-| USD | CAD | reference | 1.4046 |
-| USD | CHF | reference | 0.8284 |
-| USD | CLP | reference | 985.14 |
+| USD | CAD | reference | 1.4037 |
+| USD | CHF | reference | 0.8293 |
+| USD | CLP | reference | 981.08 |
 | USD | CNY | reference | 6.6639 |
-| USD | COP | reference | 3143.57 |
-| USD | CRC | reference | 451.1483 |
+| USD | COP | reference | 3164.245 |
+| USD | CRC | reference | 451.43 |
 | USD | CUP | reference | 24 |
-| USD | CZK | reference | 21.8444 |
-| USD | DKK | reference | 6.7102 |
-| USD | DOP | reference | 60.027 |
-| USD | EGP | reference | 56.07 |
-| USD | EUR | reference | 0.8979 |
-| USD | FJD | reference | 2.2553 |
-| USD | GBP | reference | 0.7511 |
-| USD | GTQ | reference | 7.6362 |
-| USD | HKD | reference | 7.8446 |
-| USD | HUF | reference | 329.1783 |
-| USD | IDR | reference | 18151 |
-| USD | ILS | reference | 3.0299 |
-| USD | INR | reference | 95.11 |
-| USD | IRR | reference | 1860479 |
-| USD | ISK | reference | 122.3083 |
-| USD | JPY | reference | 157.8917 |
-| USD | KRW | reference | 1326.3533 |
+| USD | CZK | reference | 21.8643 |
+| USD | DKK | reference | 6.7066 |
+| USD | DOP | reference | 60.249 |
+| USD | EGP | reference | 56.085 |
+| USD | EUR | reference | 0.8974 |
+| USD | FJD | reference | 2.2548 |
+| USD | GBP | reference | 0.7514 |
+| USD | GTQ | reference | 7.638 |
+| USD | HKD | reference | 7.8454 |
+| USD | HUF | reference | 329.5033 |
+| USD | IDR | reference | 18180 |
+| USD | ILS | reference | 3.12 |
+| USD | INR | reference | 95.225 |
+| USD | IRR | reference | 1864200 |
+| USD | ISK | reference | 121.755 |
+| USD | JPY | reference | 158.215 |
+| USD | KRW | reference | 1343.5433 |
 | USD | KYD | reference | 0.82 |
-| USD | KZT | reference | 456.2 |
-| USD | MAD | reference | 9.8459 |
-| USD | MXN | reference | 18.6832 |
-| USD | MYR | reference | 4.0865 |
-| USD | NOK | reference | 9.3289 |
-| USD | NZD | reference | 1.759 |
+| USD | KZT | reference | 454.8 |
+| USD | MAD | reference | 9.8417 |
+| USD | MXN | reference | 18.667 |
+| USD | MYR | reference | 4.0745 |
+| USD | NOK | reference | 9.2693 |
+| USD | NZD | reference | 1.7785 |
 | USD | PAB | reference | 1 |
-| USD | PEN | reference | 3.4506 |
-| USD | PHP | reference | 64.176 |
-| USD | PKR | reference | 276.7022 |
-| USD | PLN | reference | 3.9488 |
-| USD | PYG | reference | 5829.1667 |
+| USD | PEN | reference | 3.4552 |
+| USD | PHP | reference | 64.019 |
+| USD | PKR | reference | 276.6868 |
+| USD | PLN | reference | 3.9522 |
+| USD | PYG | reference | 5860.8 |
 | USD | QAR | reference | 3.6451 |
-| USD | RON | reference | 4.8014 |
-| USD | RUB | reference | 80.2167 |
+| USD | RON | reference | 4.7994 |
+| USD | RUB | reference | 79.9252 |
 | USD | SAR | reference | 3.75 |
-| USD | SEK | reference | 9.9427 |
-| USD | SGD | reference | 1.2809 |
-| USD | THB | reference | 33.7652 |
-| USD | TRY | reference | 49.7845 |
-| USD | TWD | reference | 32.479 |
-| USD | UAH | reference | 45.6008 |
-| USD | UYU | reference | 40.1575 |
-| USD | VES | reference | 885.0837 |
-| USD | VND | reference | 25832 |
-| USD | XDR | reference | 0.7393 |
-| USD | XPF | reference | 106.366 |
-| USD | ZAR | reference | 16.6202 |
+| USD | SEK | reference | 9.9231 |
+| USD | SGD | reference | 1.2828 |
+| USD | THB | reference | 33.7745 |
+| USD | TRY | reference | 49.8358 |
+| USD | TWD | reference | 32.418 |
+| USD | UAH | reference | 45.5923 |
+| USD | UYU | reference | 40.088 |
+| USD | VES | reference | 885.898 |
+| USD | VND | reference | 25843 |
+| USD | XDR | reference | 0.7398 |
+| USD | XPF | reference | 106.6595 |
+| USD | ZAR | reference | 16.6724 |
 
 </details>
 
@@ -275,6 +275,7 @@ The Central Bank of Chile publishes the dólar observado — the official USD/CL
 
 - Publisher's own page: [Dólar observado](https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_TIPO_CAMBIO/MN_TIPO_CAMBIO4/DOLAR_OBS_ADO) · [www.bcentral.cl/en/web/banco-central](https://www.bcentral.cl/en/web/banco-central)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Central Bank of Chile rates page](https://allratestoday.com/central-bank-rates-api/bcch/)
+- In the API: usually by **21:15 UTC** (measured over the last 11 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
